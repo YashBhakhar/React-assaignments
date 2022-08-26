@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "phone": "",
+      "address": "",
+      "role_id": "1"
+    },
+    {
+      "name": "Yash",
+      "email": "yash@gmail.com",
+      "password": "123",
+      "phone": "1010101020",
+      "address": "Punagam, Surat.",
+      "role_id": 2,
+      "id": 2
+    },
+    {
+      "name": "Raj",
+      "email": "raj@gmail.com",
+      "password": "123",
+      "phone": "1010101011",
+      "address": "Mavdi, Rajkot",
+      "role_id": 2,
+      "id": 3
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Electric Work"
+    },
+    {
+      "id": 2,
+      "name": "Painting work"
+    },
+    {
+      "id": 3,
+      "name": "Furniture shifting"
+    },
+    {
+      "id": 4,
+      "name": "Washing machine"
+    },
+    {
+      "id": 5,
+      "name": "Modular kitchen"
+    },
+    {
+      "id": 6,
+      "name": "Refrigerator Service"
+    },
+    {
+      "id": 7,
+      "name": "TV Repairs"
+    },
+    {
+      "id": 8,
+      "name": "Computer Repair"
+    },
+    {
+      "id": 9,
+      "name": "Laptop Repairs"
+    },
+    {
+      "id": 10,
+      "name": "Mobile Repair"
+    },
+    {
+      "id": 11,
+      "name": "AC Repairs"
+    },
+    {
+      "id": 12,
+      "name": "Home Theatre Repairs"
+    },
+    {
+      "id": 13,
+      "name": "Water purifier Repairs"
+    }
+  ],
+  "reapairs": [
+    {
+      "name": "Yash",
+      "email": "yash@gmail.com",
+      "service1": "Painting work",
+      "phone": "1010101010",
+      "date" : "25-08-2020",
+      "address": "Punagam, Surat.",
+      "comment": "I need Asian paints.",
+      "status": "Pending",
+      "id": 1
+    },
+    {
+      "name": "Yash",
+      "email": "yash@gmail.com",
+      "service1": "Washing machine",
+      "phone": "1010101010",
+      "date" : "25-08-2020",
+      "address": "Punagam, Surat.",
+      "comment": "I need repair",
+      "status": "Pending",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
